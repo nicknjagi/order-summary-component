@@ -6,6 +6,7 @@
     --heading-color: hsl(223, 47%, 23%);
     --active-btn-color:#766CF1;
     --paragraph-color: hsl(224, 23%, 55%);
+    --background-color:#E0E8FF;
 }
 
 * {
@@ -35,9 +36,10 @@ body {
     align-items: center;
     justify-content: center;
     max-height: 100vh;
-    background-image: url("/images/pattern-background-mobile.SVG") ;
+    background-color: var(--background-color);
+    background-image: url("images/pattern-background-mobile.SVG") ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 main {
@@ -129,7 +131,7 @@ main {
 
 @media (min-width:600px) {
     body{
-        background-image: url("/images/pattern-background-desktop.SVG");
+        background-image: url("images/pattern-background-desktop.SVG");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
