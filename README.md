@@ -28,11 +28,7 @@ Users should be able to:
 
 ### Links
 
-<<<<<<< HEAD
 - Solution URL: [GitHub Repo](https://github.com/nicknjagi/order-summary-component)
-=======
-- Solution URL: [GitHub repo](https://github.com/nicknjagi/order-summary-component)
->>>>>>> 036702545e636a8d9dc21d831f48b08ca82fc5d8
 - Live Site URL: [https://nicknjagi.github.io/order-summary-component/](https://nicknjagi.github.io/order-summary-component/)
 
 ## My process
