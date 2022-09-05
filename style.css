@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --primary-color:hsl(245, 75%, 52%);
+    --secondary-color:#F5F7FF;
+    --heading-color: hsl(223, 47%, 23%);
+    --active-btn-color:#766CF1;
+    --paragraph-color: hsl(224, 23%, 55%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--active-btn-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--primary-color);
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--paragraph-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+    background-image: url("/images/pattern-background-mobile.SVG") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 350px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.illustration{
+    width: inherit;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+
+.mid-top {
+    padding: 20px 36px;
+}
+
+.mid-top h1{
+    color: var(--heading-color);
+    font-size:1.4rem ;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.mid-top p {
+    line-height: 1.5;
+    color: var(--paragraph-color);
+}
+
+.flex {
+    padding: 15px;
+    margin: 0 20px 15px 20px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    display: flex;
+}
+
+.flex > div {
+    padding: 0 30px 0 20px;
+}
+
+.title{
+    color: var(--heading-color);
+    font-weight: 900;
+    padding-bottom: 3px;
+}
+
+.flex a {
+    padding-left: 20px;
+    margin: 10px 0 10px 5px;
+}
+
+.top-btn{
+    width: 90%;
+    margin: 5px auto 20px auto;
+    padding: 15px 0;
+    background-color: var(--primary-color);
+    color:#fff;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    box-shadow:0 8px 30px -10px var(--primary-color);
+}
+
+.top-btn:hover{
+    background-color: var(--active-btn-color);
+    cursor: pointer;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.btn:hover {
+    color: var(--active-btn-color);
+    cursor: pointer;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-width:600px) {
+    body{
+        background-image: url("/images/pattern-background-desktop.SVG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    main{
+        width: 375px;
+        margin-top: 0;
+    }
+
+    .flex a{
+        padding-left: 30px;
+    }
+}
