@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/nicknjagi/order-summary-component)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Live Site URL: [https://nicknjagi.github.io/order-summary-component/](https://nicknjagi.github.io/order-summary-component/)
 
 ## My process
 
